@@ -1,3 +1,5 @@
+from pandas.core.computation.common import result_type_many
+
 FILEPATH = "data.txt"
 actual_year = 2024
 def get_file(filepath=FILEPATH):
@@ -11,11 +13,14 @@ def write_to_file(new_data, filepath=FILEPATH):
 
 def get_players_by_year(year):
     data=get_file()
+    result=[]
     for row in data:
         words=row.split()
         if len(words)==4:
             if words[2]==str(year):
-                print(row.strip())
+                result.append(row)
+    return result
+
 
 def add_players(name,year,email):
     if " " in name:
@@ -52,27 +57,38 @@ def add_players(name,year,email):
 
 
 def view_by_category(category,year):
-    if category=="mp":
+    result=[]
+    if category=="Mladšia prípravka":
         for i in range(8):
-            get_players_by_year(year-i)
-    elif category=="sp":
-        get_players_by_year(year-9)
-        get_players_by_year(year-10)
-    elif category=="mz":
-        get_players_by_year(year-11)
-        get_players_by_year(year-12)
-    elif category=="sz":
-        get_players_by_year(year-13)
-        get_players_by_year(year-14)
-    elif category=="dorastenci":
-        get_players_by_year(year-15)
-        get_players_by_year(year-16)
-    elif category=="juniori":
-        get_players_by_year(year-17)
-        get_players_by_year(year-18)
-    elif category=="muzi":
+            result+=get_players_by_year(year-i)
+
+    elif category=="Staršia prípravka":
+        result1=get_players_by_year(year-9)
+        result2=get_players_by_year(year-10)
+        result=result1+result2
+
+    elif category=="Mladší žiaci":
+        result1=get_players_by_year(year-11)
+        result2=get_players_by_year(year-12)
+        result = result1 + result2
+    elif category=="Starší žiaci":
+        result1=get_players_by_year(year-13)
+        result2=get_players_by_year(year-14)
+        result = result1 + result2
+
+    elif category=="Dorastenci":
+        result1=get_players_by_year(year-15)
+        result2=get_players_by_year(year-16)
+        result = result1 + result2
+    elif category=="Juniori":
+        result1=get_players_by_year(year-17)
+        result2=get_players_by_year(year-18)
+        result = result1 + result2
+    elif category=="Muži":
         for i in range(19):
-            get_players_by_year(year-(19+i))
+            result1=get_players_by_year(year-(19+i))
+            result = result + result1
+    return result
 
 def delete_player(name,year):
     data=get_file()
