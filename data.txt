@@ -67,3 +67,5 @@ Richard Velk 2010 jozo.velk@gmail.com
 Pavol Zis 2010 zis.dusan@gmail.com
 Tomáš Bezeg 2003 tomikbez@gmail.com
 Peter Bezeg 2000 petobez31@gmail.com
+Lukáš Blaszczyk 2003 default@gmail.com
+Daniel Olekšák 2005 default@gmail.com
