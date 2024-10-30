@@ -26,18 +26,15 @@ def add_players(name,year,email):
     if " " in name:
         row=name
     else:
-        print("Please enter a valid player name")
         return False
 
     if year > 1950:
         row=row+" "+str(year)
     else:
-        print("Please enter a valid year")
         return False
     if "@" in email:
         row=row+" "+email
     else:
-        print("Please enter a valid email")
         return False
     data=get_file()
     row_check = row.split()
