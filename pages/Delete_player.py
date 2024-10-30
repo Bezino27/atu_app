@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL.ImImagePlugin import number
 
-from functions import delete_player
+from functions import delete_player, is_player_exists
 
 st.header('Delete Player')
 
@@ -15,11 +15,14 @@ with col2:
 
 if st.button("Vymaž hráča"):
     if meno and rok.isnumeric():
-        delete=delete_player(meno,int(rok))
-        if delete == True:
-            st.write(f"Hráč {meno}, narodený v roku {rok} bol úspešne vymazaný!")
+        if is_player_exists(meno, rok):
+            delete=delete_player(meno,int(rok))
+            if delete == True:
+                st.write(f"Hráč {meno}, narodený v roku {rok} bol úspešne vymazaný!")
+            else:
+                st.write("Zadali ste nesprávane údaje")
         else:
-            st.write("Zadali ste nesprávane údaje")
+            st.write("Hráč neexistuje")
 
     else:
         st.write("Vyplňte prosím všetky polia.")

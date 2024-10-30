@@ -24,7 +24,8 @@ def get_players_by_year(year):
 
 def add_players(name,year,email):
     if " " in name:
-        row=name
+        row=name.title()
+        print(row)
     else:
         return False
 
@@ -49,7 +50,6 @@ def add_players(name,year,email):
 
     data.append(row+'\n')
     write_to_file(data)
-
 
 
 def view_by_category(category,year):
@@ -90,7 +90,9 @@ def delete_player(name,year):
     data=get_file()
     if " " not in name:
         return False
+    name=name.title()
     check_name = name.split()
+    print(check_name)
     for index,row in enumerate(data):
         words=row.split()
         if len(words)==4:
@@ -137,5 +139,18 @@ def get_player_index(name,year,mail):
                     if words[2]==row_check[2]:
                         if words[3]==row_check[3]:
                             return index
+
+
+def is_player_exists(name,year):
+    data=get_file()
+    row=name+" "+str(year)
+    row_edit = row.split()
+    for array in data:
+        words=array.split()
+        if len(words)==4:
+            if words[0]==row_edit[0]:
+                if words[1]==row_edit[1]:
+                    if words[2]==row_edit[2]:
+                            return True
 
 
