@@ -5,19 +5,21 @@ from functions import add_players
 
 st.header('Add Player')
 
-col1, col2, col3 = st.columns(3)
+col1, col2, col3, col4 = st.columns(4)
 with col1:
+    cislo=st.text_input('Zadajte číslo')
+with col2:
     meno=st.text_input("Zadajte meno a priezvisko hráča")
 
-with col2:
+with col3:
     rok=st.text_input("Zadajte rok narodenia")
 
-with col3:
+with col4:
     mail=st.text_input("Zadajte email")
 
 if st.button("Pridať hráča"):
-    if meno and rok.isnumeric() and mail:
-        add=add_players(meno,int(rok),mail)
+    if cislo.isnumeric() and meno and rok.isnumeric() and mail:
+        add=add_players(cislo,meno,int(rok),mail)
         if add == False:
             st.write("Zadali ste nesprávne údaje")
         elif add == 1:

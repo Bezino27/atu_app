@@ -1,69 +1,122 @@
-Matej Pončák 2009 matej.poncak@skis.sk
-Lukáš Paľo 2009 bobopalo@gmail.com
-Matej Kender 2010 petra.kenderova@gmail.com
-Samuel Belovič 2010 stofovaj@gmail.com
-Damián Bernát 2009 martin.bernat@gmail.com
-Kristína Semanová 2011 stazasemanova@gmail.com
-Matej Rosič 2010 martinrosic@gmail.com
-Oliver Olekšák 2009 denisa.oleksakova@gmail.com
-Daniel Petrašovič 2009 martin.petrasovic@gmail.com
-Nicolas Fedorčák 2009 rastofedo@hotmail.com
-Filip Šimek 2009 simekovaj@gmail.com
-Matej Gula 2009 petkogulka@gmail.com
-Oliver Batkovič 2010 batkovic@senzor.sk
-Richard Velk 2010 jozo.velk@gmail.com
-Alex Rosenberger 2010 helvar22@hotmail.com
-Martin Martinásek 2017 nataliahritzova1@gmail.com
-Michal Kvetko 2016 lenka.kvetkova@gmail.com
-Branislav Fafrák  2019 fafrak.marian@gmail.com
-Daniel Fafrák 2017 fafrak.marian@gmail.com
-Michal Sedláčko 2017 katka.sedlackova@icloud.com
-Samuel Kížik 2017 martin.kizik@gmail.com
-Alexander Široký 2018 siroky.viliam@gmail.com
-Maxim Pavlanský 2017 roman.pavlansky@gmail.com
-Filip Šesták 2018 sestak.janik@gmail.com
-Leo Šesták 2016 sestak.janik@gmail.com
-Tobias Figura 2015 paulina.figurova@gmail.com
-Tobias Čunderlík 2015 k.tokarova@gmail.com
- Emil Čech 2015 l.krajcova2021@gmail.com
- Damián Škrak  2014 frantiska.skrakova@gmail.com
- Oliver Kolcun  2014 lubos.kolcun@gmail.com
- Bruno Bodnár 2014 ibodnarova78@gmail.com
-Ryan Staňa 2014 r.stana@centrum.sk
- Tomáš Petrejčík 2015 eva.petrejcikova@gmail.com
- René Olšiak 2014 romana.olsiakova@gmail.com
-Slavomír Gašpar 2014 kkindji@gmail.com
-Teodor Počátko 2014 monika.palovcikova@gmail.com
-"Dávid Bašista 2011 basista.p@gmail.com
+0 Martin Martinásek 2017 nataliahritzova1@gmail.com
+0 Michal Kvetko 2016 lenka.kvetkova@gmail.com
+0 Branislav Fafrák  2019 fafrak.marian@gmail.com
+0 Daniel Fafrák 2017 fafrak.marian@gmail.com
+0 Michal Sedláčko 2017 katka.sedlackova@icloud.com
+0 Samuel Kížik 2017 martin.kizik@gmail.com
+0 Alexander Široký 2018 siroky.viliam@gmail.com
+0 Maxim Pavlanský 2017 roman.pavlansky@gmail.com
+0 Filip Šesták 2018 sestak.janik@gmail.com
+0 Leo Šesták 2016 sestak.janik@gmail.com
+98 Tobias Figura 2015 paulina.figurova@gmail.com
+26 Tobias Čunderlík 2015 k.tokarova@gmail.com
+30  Emil Čech 2015 l.krajcova2021@gmail.com
+20  Damián Škrak  2014 frantiska.skrakova@gmail.com
+9  Oliver Kolcun  2014 lubos.kolcun@gmail.com
+14  Bruno Bodnár 2014 ibodnarova78@gmail.com
+31 Ryan Staňa 2014 r.stana@centrum.sk
+1  Tomáš Petrejčík 2015 eva.petrejcikova@gmail.com
+39  René Olšiak 2014 romana.olsiakova@gmail.com
+11 Slavomír Gašpar 2014 kkindji@gmail.com
+12 Teodor Počátko 2014 monika.palovcikova@gmail.com
+64 Dávid Bašista 2011 basista.p@gmail.com
 mgr.anna.basistova@zoznam.sk"
-Oliver Batkovič 2010 batkovic@senzor.sk
-Samuel Belovič 2010 stofovaj@gmail.com
-Dominik Bernát 2011 martin.bernat@gmail.com
-Adam Bruoth  rbruoth@gmail.com
-Marek Feckanin  feckanin79@gmail.com
-Dávid Getta D. 2011 e.jaklovska@gmail.com
-Oliver Getta O. 2011 e.jaklovska@gmail.com
-Sebastián Hudačko 2010 sebastianhudacko100@gmail.com
-Dominik Hudák 2011 hudak147@gmail.com
-Ivan Karásek 2010 ivana.karaskova78@gmail.com
-Ivan Karásek 2010 mkarasek145@gmail.com
-Matej Kender 2010 petra.kenderova@gmail.com
-Matej Kender 2010 kendy_12@centrum.cz
-Lukáš Kollár 2011 binikky@gmail.com
-Jakub Lenárt 2011 lenartrobo@gmail.com
-Mario Mačuga  marcelmacuga@gmail.com
-Adam Martalus 2010 j.martalusova@gmail.com
-Ján Oravec  janoravec79@gmail.com
-Matej Potočňák  potocnakova.a@gmail.com
-Maxim Rigo 2011 rigo@iuristico.eu
-"Alex Rosenberger 2010 helvar22@hotmail.com
+96 Oliver Batkovič 2010 batkovic@senzor.sk
+20 Samuel Belovič 2010 stofovaj@gmail.com
+21 Dominik Bernát 2011 martin.bernat@gmail.com
+0 Adam Bruoth  rbruoth@gmail.com
+0 Marek Feckanin 2011 feckanin79@gmail.com
+26 Dávid Getta D. 2011 e.jaklovska@gmail.com
+0 Oliver Getta O. 2011 e.jaklovska@gmail.com
+0 Sebastián Hudačko 2010 sebastianhudacko100@gmail.com
+20 Dominik Hudák 2011 hudak147@gmail.com
+37 Ivan Karásek 2010 ivana.karaskova78@gmail.com
+37 Ivan Karásek 2010 mkarasek145@gmail.com
+13 Matej Kender 2010 petra.kenderova@gmail.com
+13 Matej Kender 2010 kendy_12@centrum.cz
+17 Lukáš Kollár 2011 binikky@gmail.com
+28 Jakub Lenárt 2011 lenartrobo@gmail.com
+0 Mario Mačuga 2011 marcelmacuga@gmail.com
+0 Adam Martalus 2010 j.martalusova@gmail.com
+0 Ján Oravec 2010 janoravec79@gmail.com
+0 Matej Potočňák  potocnakova.a@gmail.com
+0 Maxim Rigo 2011 rigo@iuristico.eu
+30 Alex Rosenberger 2010 helvar22@hotmail.com
 rosenberger.jaroslav@gmail.com"
-"Matej Rosič 2010 krosicova@gmail.com
+47 Matej Rosič 2010 krosicova@gmail.com
 martinrosic@gmail.com"
-Kristína Semanová 2011 stazasemanova@gmail.com
-Dominik Tešľa 2011 lubos.tesla@gmail.com
-Richard Velk 2010 jozo.velk@gmail.com
-Pavol Zis 2010 zis.dusan@gmail.com
-Martin Guľaš 2009 gulas.martin@gmail.com
-
-Tomáš Bezeg 2003 tomikbez@gmail.com
+24 Kristína Semanová 2011 stazasemanova@gmail.com
+10 Dominik Tešľa 2011 lubos.tesla@gmail.com
+23 Richard Velk 2010 jozo.velk@gmail.com
+0 Pavol Zis 2010 zis.dusan@gmail.com
+36 Adrian Ivanko 2013 ivankoradovan@gmail.com
+0 Tomáš Králik 2013 Kralikpeter80@gmail.com
+16 Matúš Ivanko 2012 ivankoradovan@gmail.com
+0 Lucas Škodi 2012 mail@mail.sk
+0 Adam  Gaľa 2013 mail@mail.sk
+0 Leo Barborík 2011 mail@mail.sk
+43 Lukáš Palai 2013 luciapalaiova@gmail.com
+0 Leonard  Molnár 2011 mail@djazbest.com
+2 Tomáš Malega 2013 peter.malega@tuke.sk
+44 Adam  Rogal 2012 mrogal@hotmail.com
+34 Marcus Korl 2012 tomokorl18@gmail.com
+1 Oliver Feňuško 2013 sandra98@centrum.sk
+82 Štefan Pavlovič 2012 marek@pavlovic.sk
+8 Štefan Bokotej 2013 pitkomaly@gmail.com
+38 Šimon Guľaš 2013  gulas.martin@gmail.com
+10 Jakub Ištoňa 2012 lubka.istonova@gmail.com
+27 Tomáš Samko 2012 tomassamko@gmail.com
+19 Tomáš Fedák 2012 luboferi@gmail.com
+0 Juraj Javor 2013 javorisko@gmail.com
+1 Samuel Horňák 2001 mail@mail.sk
+71 Patrik Vanyo 2000 mail@mail.sk
+72 Peter Bezeg 2000 mail@mail.sk
+10 Martin Ferenc 1993 mail@mail.sk
+9 Jozef Frivaldský 1998 mail@mail.sk
+73 Matúš Gburík 2004 mail@mail.sk
+6 Patrik Koleno 1984 mail@mail.sk
+48 Michal Kročko 1994 mail@mail.sk
+77 Daniel Olekšák 2005 mail@mail.sk
+34 Jakub Talarovič 1997 mail@mail.sk
+22 Ondrej Bernát 2003 mail@mail.sk
+27 Tomáš Bezeg 2003 mail@mail.sk
+91 Lukáš Blaszczyk 2003 mail@mail.sk
+88 Filip Čonka-Skyba 1997 mail@mail.sk
+28 Samuel Kerekeš 1995 mail@mail.sk
+99 Samuel Kovalčík 2004 mail@mail.sk
+11 Kamil Navrátil 1994 mail@mail.sk
+64 Dominik Németh 1997 mail@mail.sk
+79 Marek Pazsiczký 2003 mail@mail.sk
+17 Marko Šima 2004 mail@mail.sk
+39 Róbert Hamrák 2006 mail@mail.sk
+42 Matúš Dragoň 2006 mail@mail.sk
+76 Štefan Kovačík 2007 mail@mail.sk
+29 Adam Králik 2006 mail@mail.sk
+12 Matej Valent  2007 mail@mail.sk
+25 Patrik Cirbus 2006 mail@mail.sk
+78 Michal Feňo 2007 mail@mail.sk
+26 Adam Gazdag 2007 mail@mail.sk
+32 Lukáš Holoubek 2006 mail@mail.sk
+27 Adam Karásek 2007 mail@mail.sk
+23 Michal Kopčo 2006 mail@mail.sk
+16 Richard Kubík 2006 mail@mail.sk
+81 Richard Lackner 2007 mail@mail.sk
+41 Zdenko Meliška 2006 mail@mail.sk
+92 Tomáš Slanina 2007 mail@mail.sk
+74 Peter Bretz 2008 katarinabretzova@gmail.com
+59 Matej Pončák 2009 matej.poncak@skis.sk
+68 Adam Dudinský 2008 r.dudinsky@gmail.com
+95 Matej Gula 2009 petkogulka@gmail.com
+38 Martin Guľaš 2009  gulas.martin@gmail.com
+7 Samuel Ištoňa 2008 lubka.istonova@gmail.com
+75 Dávid Maliar 2008 maliarik75@gmail.com
+53 Daniel Petrašovič 2009 martin.petrasovic@gmail.com
+31 Patrik Tóth 2008 martin.toth16@gmail.com
+21 Damián Bernát 2009 martin.bernat@gmail.com
+55 Nicolas Fedorčák 2009 rastofedo@hotmail.com
+15 Martin Markovič 2008 adriana.markovicova@gmail.com
+72 Tomáš Nagy 2008 nagyova.silvia@netkosice.sk
+52 Oliver Olekšák 2009 denisa.oleksakova@gmail.com
+6 Lukáš Paľo 2009 bobopalo@gmail.com
+3 Bruno Peregrin 2008 Peregrinp78@gmail.com
+65 Filip Šimek 2009 simekovaj@gmail.com

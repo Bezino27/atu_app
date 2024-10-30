@@ -16,15 +16,19 @@ def get_players_by_year(year):
     result=[]
     for row in data:
         words=row.split()
-        if len(words)==4:
-            if words[2]==str(year):
+        if len(words)==5:
+            if words[3]==str(year):
                 result.append(row)
     return result
 
 
-def add_players(name,year,email):
+def add_players(number,name,year,email):
+    if number.isnumeric():
+        row=number
+    else:
+        return False
     if " " in name:
-        row=name.title()
+        row=row +" "+ name.title()
         print(row)
     else:
         return False
@@ -37,16 +41,18 @@ def add_players(name,year,email):
         row=row+" "+email
     else:
         return False
+
     data=get_file()
     row_check = row.split()
     for x in data:
         words=x.split()
-        if len(words)==4:
+        if len(words)==5:
             if words[0] == row_check[0]:
                 if words[1]==row_check[1]:
                     if words[2]==row_check[2]:
                         if words[3]==row_check[3]:
-                            return 1
+                            if words[4] == row_check[4]:
+                                return 1
 
     data.append(row+'\n')
     write_to_file(data)
@@ -56,7 +62,7 @@ def view_by_category(category,year):
     result=[]
     if category=="Mladšia prípravka":
         for i in range(8):
-            result+=get_players_by_year(year-i)
+            result+=get_players_by_year(year-(i+1))
 
     elif category=="Staršia prípravka":
         result1=get_players_by_year(year-9)
@@ -95,10 +101,10 @@ def delete_player(name,year):
     print(check_name)
     for index,row in enumerate(data):
         words=row.split()
-        if len(words)==4:
-            if words[2]==str(year):
-                if words[1] in check_name[1]:
-                    if words[0]==check_name[0]:
+        if len(words)==5:
+            if words[3]==str(year):
+                if words[1] in check_name[0]:
+                    if words[2]==check_name[1]:
                         data.pop(index)
                     else:
                         return False
@@ -143,14 +149,14 @@ def get_player_index(name,year,mail):
 
 def is_player_exists(name,year):
     data=get_file()
-    row=name+" "+str(year)
+    row=name.title()+" "+str(year)
     row_edit = row.split()
     for array in data:
         words=array.split()
-        if len(words)==4:
-            if words[0]==row_edit[0]:
-                if words[1]==row_edit[1]:
-                    if words[2]==row_edit[2]:
+        if len(words)==5:
+            if words[1]==row_edit[0]:
+                if words[2]==row_edit[1]:
+                    if words[3]==row_edit[2]:
                             return True
 
 
