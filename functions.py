@@ -48,12 +48,11 @@ def add_players(name,year,email):
                 if words[1]==row_check[1]:
                     if words[2]==row_check[2]:
                         if words[3]==row_check[3]:
-                            print("This player has already been registered")
-                            return False
+                            return 1
 
     data.append(row+'\n')
     write_to_file(data)
-    print("added successfully")
+
 
 
 def view_by_category(category,year):
@@ -92,6 +91,8 @@ def view_by_category(category,year):
 
 def delete_player(name,year):
     data=get_file()
+    if " " not in name:
+        return False
     check_name = name.split()
     for index,row in enumerate(data):
         words=row.split()
@@ -100,8 +101,11 @@ def delete_player(name,year):
                 if words[1] in check_name[1]:
                     if words[0]==check_name[0]:
                         data.pop(index)
-                        print("deleted successfully")
+                    else:
+                        return False
+
     write_to_file(data)
+    return True
 
 def edit_player(name,year):
     data=get_file()

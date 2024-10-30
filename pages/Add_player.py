@@ -1,4 +1,6 @@
 import streamlit as st
+from PIL.ImImagePlugin import number
+
 from functions import add_players
 
 st.header('Add Player')
@@ -14,8 +16,13 @@ with col3:
     mail=st.text_input("Zadajte email")
 
 if st.button("Pridať hráča"):
-    if meno and rok and mail:
-        add_players(meno,int(rok),mail)
-        st.write(f"Hráč {meno}, narodený v roku {rok}, s emailom {mail} bol úspešne pridaný!")
+    if meno and rok.isnumeric() and mail:
+        add=add_players(meno,int(rok),mail)
+        if add == False:
+            st.write("Zadali ste nesprávne údaje")
+        elif add == 1:
+            st.write("Tento hráč sa už nachádza v našej databáze")
+        else:
+            st.write(f"Hráč {meno}, narodený v roku {rok}, s emailom {mail} bol úspešne pridaný!")
     else:
         st.write("Vyplňte prosím všetky polia.")
