@@ -4,7 +4,6 @@ Matej Kender 2010 petra.kenderova@gmail.com
 Samuel Belovič 2010 stofovaj@gmail.com
 Damián Bernát 2009 martin.bernat@gmail.com
 Kristína Semanová 2011 stazasemanova@gmail.com
-Martin Guľaš 2009 gulas.martin@gmail.com
 Matej Rosič 2010 martinrosic@gmail.com
 Oliver Olekšák 2009 denisa.oleksakova@gmail.com
 Daniel Petrašovič 2009 martin.petrasovic@gmail.com
@@ -67,3 +66,4 @@ Richard Velk 2010 jozo.velk@gmail.com
 Pavol Zis 2010 zis.dusan@gmail.com
 Peter Bezeg 2000 petobez31@gmail.com
 Tomáš Bezeg 2003 tomikbez@gmail.com
+Martin Guľaš 2009 gulas.martin@gmail.com
