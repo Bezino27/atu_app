@@ -143,7 +143,7 @@ def get_player_index(name,year,mail):
 
 def is_player_exists(name,year):
     data=get_file()
-    row=name+" "+str(year)
+    row=name.title()+" "+str(year)
     row_edit = row.split()
     for array in data:
         words=array.split()
