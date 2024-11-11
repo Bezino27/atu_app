@@ -1,7 +1,7 @@
 import streamlit as st
 import functions as fn
 from functions import view_by_category, get_players_by_year
-
+st.cache_data.clear()
 year=2024
 choices=["Mladšia prípravka","Staršia prípravka","Mladší žiaci","Starší žiaci","Dorastenci","Juniori","Muži"]
 
